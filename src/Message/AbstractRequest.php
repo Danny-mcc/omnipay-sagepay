@@ -22,6 +22,207 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
         return $this->setParameter('vendor', $value);
     }
 
+    public function getBillingFirstName()
+    {
+        return $this->getParameter('billingFirstName');
+    }
+
+    public function setBillingFirstName($value)
+    {
+        return $this->setParameter('billingFirstName', $value);
+    }
+
+    public function getBillingLastName()
+    {
+        return $this->getParameter('billingLastName');
+    }
+
+    public function setBillingLastName($value)
+    {
+        return $this->setParameter('billingLastName', $value);
+    }
+
+    public function getBillingAddress1()
+    {
+        return $this->getParameter('billingAddress1');
+    }
+
+    public function setBillingAddress1($value)
+    {
+        return $this->setParameter('billingAddress1', $value);
+    }
+
+    public function getBillingAddress2()
+    {
+        return $this->getParameter('billingAddress2');
+    }
+
+    public function setBillingAddress2($value)
+    {
+        return $this->setParameter('billingAddress2', $value);
+    }
+
+    public function getBillingCity()
+    {
+        return $this->getParameter('billingCity');
+    }
+
+    public function setBillingCity($value)
+    {
+        return $this->setParameter('billingCity', $value);
+    }
+
+    public function getBillingPostcode()
+    {
+        return $this->getParameter('billingPostcode');
+    }
+
+    public function setBillingPostcode($value)
+    {
+        return $this->setParameter('billingPostcode', $value);
+    }
+
+    public function getBillingState()
+    {
+        return $this->getParameter('billingState');
+    }
+
+    public function setBillingState($value)
+    {
+        return $this->setParameter('billingState', $value);
+    }
+
+    public function getBillingPhone()
+    {
+        return $this->getParameter('billingPhone');
+    }
+
+    public function setBillingPhone($value)
+    {
+        return $this->setParameter('billingPhone', $value);
+    }
+
+    public function getBillingCountry()
+    {
+        return $this->getParameter('billingCountry');
+    }
+
+    public function setBillingCountry($value)
+    {
+        return $this->setParameter('billingCountry', $value);
+    }
+
+
+    public function getShippingFirstName()
+    {
+        return $this->getParameter('shippingFirstName');
+    }
+
+    public function setShippingFirstName($value)
+    {
+        return $this->setParameter('shippingFirstName', $value);
+    }
+
+    public function getShippingLastName()
+    {
+        return $this->getParameter('shippingLastName');
+    }
+
+    public function setShippingLastName($value)
+    {
+        return $this->setParameter('shippingLastName', $value);
+    }
+
+    public function getShippingAddress1()
+    {
+        return $this->getParameter('shippingAddress1');
+    }
+
+    public function setShippingAddress1($value)
+    {
+        return $this->setParameter('shippingAddress1', $value);
+    }
+
+    public function getShippingAddress2()
+    {
+        return $this->getParameter('shippingAddress2');
+    }
+
+    public function setShippingAddress2($value)
+    {
+        return $this->setParameter('shippingAddress2', $value);
+    }
+
+    public function getShippingCity()
+    {
+        return $this->getParameter('shippingCity');
+    }
+
+    public function setShippingCity($value)
+    {
+        return $this->setParameter('shippingCity', $value);
+    }
+
+    public function getShippingPostcode()
+    {
+        return $this->getParameter('shippingPostcode');
+    }
+
+    public function setShippingPostcode($value)
+    {
+        return $this->setParameter('shippingPostcode', $value);
+    }
+
+    public function getShippingState()
+    {
+        return $this->getParameter('shippingState');
+    }
+
+    public function setShippingState($value)
+    {
+        return $this->setParameter('shippingState', $value);
+    }
+
+    public function getShippingPhone()
+    {
+        return $this->getParameter('shippingPhone');
+    }
+
+    public function setShippingPhone($value)
+    {
+        return $this->setParameter('shippingPhone', $value);
+    }
+
+    public function getShippingCountry()
+    {
+        return $this->getParameter('shippingCountry');
+    }
+
+    public function setShippingCountry($value)
+    {
+        return $this->setParameter('shippingCountry', $value);
+    }
+
+    public function getCompany()
+    {
+        return $this->getParameter('company');
+    }
+
+    public function setCompany($value)
+    {
+        return $this->setParameter('company', $value);
+    }
+
+    public function getEmail()
+    {
+        return $this->getParameter('email');
+    }
+
+    public function setEmail($value)
+    {
+        return $this->setParameter('email', $value);
+    }
+
     public function getService()
     {
         return $this->action;
