@@ -37,6 +37,16 @@ class DirectGateway extends AbstractGateway
         return $this->setParameter('vendor', $value);
     }
 
+    public function getAccountType()
+    {
+        return $this->getParameter('accountType');
+    }
+
+    public function setAccountType($value)
+    {
+        return $this->setParameter('accountType', $value);
+    }
+
     // Access to the HTTP client for debugging.
     // NOTE: this is likely to be removed or replaced with something
     // more appropriate.
