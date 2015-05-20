@@ -111,4 +111,14 @@ class DirectGateway extends AbstractGateway
     {
         return $this->createRequest('\Omnipay\SagePay\Message\DirectRemoveTokenRequest', $parameters);
     }
+
+    public function getCardReference()
+    {
+        return $this->getParameter('cardReference');
+    }
+
+    public function setCardReference($value)
+    {
+        return $this->setParameter('cardReference', $value);
+    }
 }
